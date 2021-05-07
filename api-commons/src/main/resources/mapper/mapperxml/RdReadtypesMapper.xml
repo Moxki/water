@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.RdReadtypesMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.RdReadtypes">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table rd_readtypes-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="ReadID" jdbcType="INTEGER" property="readid" />
+    <result column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <result column="WaterTypeCode" jdbcType="VARCHAR" property="watertypecode" />
+    <result column="AllotText" jdbcType="VARCHAR" property="allottext" />
+    <result column="Amount" jdbcType="INTEGER" property="amount" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, ReadID, UserNo, WaterTypeCode, AllotText, Amount
+  </sql>
+</mapper>

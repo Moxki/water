@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.RdChangemaxvalueMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.RdChangemaxvalue">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table rd_changemaxvalue-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="Datee" jdbcType="TIMESTAMP" property="datee" />
+    <result column="EmpID" jdbcType="INTEGER" property="empid" />
+    <result column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <result column="MeterNo" jdbcType="VARCHAR" property="meterno" />
+    <result column="MaxValue1" jdbcType="INTEGER" property="maxvalue1" />
+    <result column="MaxValue2" jdbcType="INTEGER" property="maxvalue2" />
+    <result column="Remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, Datee, EmpID, UserNo, MeterNo, MaxValue1, MaxValue2, Remark
+  </sql>
+</mapper>

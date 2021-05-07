@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.RdReadMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.RdRead">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table rd_read-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="ReadYear" jdbcType="INTEGER" property="readyear" />
+    <result column="ReadMonth" jdbcType="INTEGER" property="readmonth" />
+    <result column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <result column="MeterNo" jdbcType="VARCHAR" property="meterno" />
+    <result column="MaxValue" jdbcType="INTEGER" property="maxvalue" />
+    <result column="VolumeId" jdbcType="INTEGER" property="volumeid" />
+    <result column="VolumeIndex" jdbcType="INTEGER" property="volumeindex" />
+    <result column="ReadEmpID" jdbcType="INTEGER" property="readempid" />
+    <result column="ReadDate" jdbcType="TIMESTAMP" property="readdate" />
+    <result column="PreValue" jdbcType="INTEGER" property="prevalue" />
+    <result column="Enter" jdbcType="BIT" property="enter" />
+    <result column="CurValue" jdbcType="INTEGER" property="curvalue" />
+    <result column="Dial" jdbcType="BIT" property="dial" />
+    <result column="Amount" jdbcType="INTEGER" property="amount" />
+    <result column="Formula" jdbcType="VARCHAR" property="formula" />
+    <result column="Audit" jdbcType="BIT" property="audit" />
+    <result column="AuditEmpID" jdbcType="INTEGER" property="auditempid" />
+    <result column="AuditDate" jdbcType="TIMESTAMP" property="auditdate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, ReadYear, ReadMonth, UserNo, MeterNo, `MaxValue`, VolumeId, VolumeIndex, ReadEmpID, 
+    ReadDate, PreValue, Enter, CurValue, Dial, Amount, Formula, `Audit`, AuditEmpID, 
+    AuditDate
+  </sql>
+</mapper>

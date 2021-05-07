@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.UsSmsMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.UsSms">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table us_sms-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="SendTime" jdbcType="TIMESTAMP" property="sendtime" />
+    <result column="EmpID" jdbcType="INTEGER" property="empid" />
+    <result column="Message" jdbcType="VARCHAR" property="message" />
+    <result column="Typee" jdbcType="INTEGER" property="typee" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, SendTime, EmpID, Message, Typee
+  </sql>
+</mapper>

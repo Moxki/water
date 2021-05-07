@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.RdYearmonthMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.RdYearmonth">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table rd_yearmonth-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="ReadYear" jdbcType="INTEGER" property="readyear" />
+    <result column="ReadMonth" jdbcType="INTEGER" property="readmonth" />
+    <result column="IsCurrent" jdbcType="BIT" property="iscurrent" />
+    <result column="InitEmpID" jdbcType="INTEGER" property="initempid" />
+    <result column="InitDate" jdbcType="TIMESTAMP" property="initdate" />
+    <result column="EndDate" jdbcType="INTEGER" property="enddate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, ReadYear, ReadMonth, IsCurrent, InitEmpID, InitDate, EndDate
+  </sql>
+</mapper>

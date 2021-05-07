@@ -1,0 +1,16 @@
+server:
+  port: 12001
+
+spring:
+  application:
+    name: nacos-provider-systemmanage
+  datasource:
+    druid:
+      url: jdbc:mysql://106.54.90.81:3306/water
+      username: root
+      password: wanwan12
+    driver-class-name: org.gjt.mm.mysql.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.232.1:8848 #配置Nacos地址

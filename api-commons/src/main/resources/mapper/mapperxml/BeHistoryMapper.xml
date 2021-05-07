@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.BeHistoryMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.BeHistory">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table be_history-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="OrderNo" jdbcType="VARCHAR" property="orderno" />
+    <result column="StepID" jdbcType="INTEGER" property="stepid" />
+    <result column="Datee" jdbcType="TIMESTAMP" property="datee" />
+    <result column="EmpID" jdbcType="INTEGER" property="empid" />
+    <result column="IsBack" jdbcType="BIT" property="isback" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, OrderNo, StepID, Datee, EmpID, IsBack
+  </sql>
+</mapper>

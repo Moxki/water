@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.PyBillMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.PyBill">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table py_bill-->
+    <id column="BillNo" jdbcType="VARCHAR" property="billno" />
+    <result column="ReadID" jdbcType="INTEGER" property="readid" />
+    <result column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <result column="CreateDate" jdbcType="TIMESTAMP" property="createdate" />
+    <result column="BillMoney" jdbcType="DECIMAL" property="billmoney" />
+    <result column="RealMoney" jdbcType="DECIMAL" property="realmoney" />
+    <result column="Balance" jdbcType="BIT" property="balance" />
+    <result column="BalanceDate" jdbcType="TIMESTAMP" property="balancedate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    BillNo, ReadID, UserNo, CreateDate, BillMoney, RealMoney, Balance, BalanceDate
+  </sql>
+</mapper>

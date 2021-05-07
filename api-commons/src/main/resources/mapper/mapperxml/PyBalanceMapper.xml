@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.PyBalanceMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.PyBalance">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table py_balance-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="UserNo" jdbcType="VARCHAR" property="userno" />
+    <result column="BalanceDate" jdbcType="DATE" property="balancedate" />
+    <result column="BalanceMoney" jdbcType="DECIMAL" property="balancemoney" />
+    <result column="BillNo" jdbcType="VARCHAR" property="billno" />
+    <result column="BillRealMoney1" jdbcType="DECIMAL" property="billrealmoney1" />
+    <result column="BillRealMoney2" jdbcType="DECIMAL" property="billrealmoney2" />
+    <result column="PayNo" jdbcType="VARCHAR" property="payno" />
+    <result column="PayUseMoney1" jdbcType="DECIMAL" property="payusemoney1" />
+    <result column="PayUseMoney2" jdbcType="DECIMAL" property="payusemoney2" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, UserNo, BalanceDate, BalanceMoney, BillNo, BillRealMoney1, BillRealMoney2, PayNo, 
+    PayUseMoney1, PayUseMoney2
+  </sql>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.BeFlowMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.BeFlow">
+    <!--@mbg.generated generated on Thu May 06 13:53:08 CST 2021.-->
+    <!--@Table be_flow-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="StepName" jdbcType="VARCHAR" property="stepname" />
+    <result column="DeptID" jdbcType="INTEGER" property="deptid" />
+    <result column="Type1" jdbcType="INTEGER" property="type1" />
+    <result column="Type2" jdbcType="INTEGER" property="type2" />
+    <result column="Type3" jdbcType="INTEGER" property="type3" />
+    <result column="Type4" jdbcType="INTEGER" property="type4" />
+    <result column="Type5" jdbcType="INTEGER" property="type5" />
+    <result column="Type6" jdbcType="INTEGER" property="type6" />
+    <result column="Type7" jdbcType="INTEGER" property="type7" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 13:53:08 CST 2021.-->
+    ID, StepName, DeptID, Type1, Type2, Type3, Type4, Type5, Type6, Type7
+  </sql>
+</mapper>

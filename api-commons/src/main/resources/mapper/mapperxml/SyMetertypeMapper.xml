@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.SyMetertypeMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.SyMetertype">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table sy_metertype-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="MeterTypeName" jdbcType="VARCHAR" property="metertypename" />
+    <result column="Aperture" jdbcType="INTEGER" property="aperture" />
+    <result column="MavValue" jdbcType="INTEGER" property="mavvalue" />
+    <result column="MinValue" jdbcType="INTEGER" property="minvalue" />
+    <result column="Life" jdbcType="INTEGER" property="life" />
+    <result column="Remark" jdbcType="VARCHAR" property="remark" />
+    <result column="Disabled" jdbcType="BIT" property="disabled" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, MeterTypeName, Aperture, MavValue, `MinValue`, Life, Remark, Disabled
+  </sql>
+</mapper>

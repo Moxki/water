@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mox.mapper.SyCosttypeMapper">
+  <resultMap id="BaseResultMap" type="com.mox.entity.SyCosttype">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    <!--@Table sy_costtype-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="Kind" jdbcType="INTEGER" property="kind" />
+    <result column="Code" jdbcType="VARCHAR" property="code" />
+    <result column="CostTypeName" jdbcType="VARCHAR" property="costtypename" />
+    <result column="FullName" jdbcType="VARCHAR" property="fullname" />
+    <result column="Price" jdbcType="DECIMAL" property="price" />
+    <result column="SurchargeText" jdbcType="VARCHAR" property="surchargetext" />
+    <result column="Remark" jdbcType="VARCHAR" property="remark" />
+    <result column="Disabled" jdbcType="BIT" property="disabled" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu May 06 11:19:55 CST 2021.-->
+    ID, Kind, Code, CostTypeName, FullName, Price, SurchargeText, Remark, Disabled
+  </sql>
+</mapper>
