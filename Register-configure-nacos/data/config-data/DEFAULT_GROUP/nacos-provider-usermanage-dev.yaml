@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://106.54.90.81:3306/Water?serverTimezone=UTC
+    #jdbc:mysql://localhost:3306/water?serverTimezone=UTC 
+    #url: jdbc:mysql://localhost:3306/water?serverTimezone=UTC
+    username: root
+    password: wanwan12
+    #password: root
